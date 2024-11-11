@@ -5,6 +5,7 @@ use App\Http\Controllers\backEnd\LoginController;
 use App\Http\Controllers\frontEnd\BlogController;
 use App\Http\Controllers\frontEnd\FaqsController;
 use App\Http\Controllers\backEnd\ProjetController;
+use App\Http\Controllers\frontEnd\OffreController;
 use App\Http\Controllers\backEnd\ContactController;
 use App\Http\Controllers\backEnd\ContratController;
 use App\Http\Controllers\frontEnd\MetierController;
@@ -18,6 +19,7 @@ use App\Http\Controllers\frontEnd\ContactsController;
 use App\Http\Controllers\backEnd\EntrepriseController;
 use App\Http\Controllers\frontEnd\FreelanceController;
 use App\Http\Controllers\frontEnd\PolitiqueController;
+use App\Http\Controllers\frontEnd\RessourceController;
 use App\Http\Controllers\backEnd\PrestataireController;
 use App\Http\Controllers\backEnd\SousCategorieController;
 use App\Http\Controllers\frontEnd\PrestatairesController;
@@ -72,6 +74,10 @@ Route::get('/', function () {
     Route::get('/blog', [BlogController::class , 'index']);
     Route::get('/prestataire', [PrestatairesController::class , 'index']);
     Route::get('/politique', [PolitiqueController::class , 'index']);
+    Route::get('/offre', [OffreController::class , 'index']);
+    Route::get('/ressource', [RessourceController::class , 'index']);
+
+
 
 
 

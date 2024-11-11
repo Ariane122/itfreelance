@@ -23,7 +23,7 @@
                     </div>
                     <div class="space-5"></div>
                     <p>Le travail à distance est une organisation du travail dans laquelle les salariés effectuent leurs tâches de travail en tout ou en partie à l'extérieur des locaux ou locaux commerciaux de l'employeur, principalement par le biais des télécommunications.Depuis la pandémie de Corona, les entreprises ont constate qu’ aussi bien localement , qu’au niveau international , qu’il était possible  de continuer les activités avec des employés et des équipes travaillant à distance. Ce phénomème s’ acccentue de plus en plus.L’Afrique dispose d’une main-d’oeuvre jeune et abondante., Elle doit fournir chaque année à peu près 20 millions d'emplois pour lui  permettre de faire face à la dynamique démographique.Devant cette réalité Work4Connect s’est fixée comme but la promotion du travail à distance dAfrique en direction des autres continents.Nous sommes une plateforme dédiée à faciliter le travail à distance, connectant des professionnels talentueux du Continent Africain avec des employeurs qui recherchent des compétences variées.Nous connectons les entreprises à travers le monde avec des experts vivant sur le continent Africain ayant l’expertise technologiques requises </p>
-                    <p><em class="text-dark"><strong>•	Notre mission est de rendre le travail à distance accessible et agréable pour tous.</strong></em></p>
+                    <p><em class="text-dark"><strong></strong></em></p>
                     <div class="space-20"></div>
                     {{-- <div class="video-popup style-2">
                         <div class="btn-inner">
@@ -38,43 +38,130 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <a class="ot-image-box v3 st1" href="">
-                                <div class="overlay">
-                                    <h4>Our Mission</h4>
-                                </div>
-                                <img src="{{asset('front/images/image-box1.jpg')}}" alt="Our Mission">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <a class="ot-image-box v3 st2" href="">
-                                <div class="overlay">
-                                    <h4>Our Vision</h4>
-                                </div>
-                                <img src="{{asset('front/images/image-box2.jpg')}}" alt="Our Vision">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <a class="ot-image-box v3 st3" href="">
-                                <div class="overlay">
-                                    <h4>Our Philosophy</h4>
-                                </div>
-                                <img src="{{asset('front/images/image-box3.jpg')}}" alt="Our Philosophy">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <a class="ot-image-box v3 st4 mb-0" href="">
-                                <div class="overlay">
-                                    <h4>Our Strategy</h4>
-                                </div>
-                                <img src="{{asset('front/images/image-box4.jpg')}}" alt="Our Strategy">
-                            </a>
-                        </div>
+                        <!-- Section avec les liens et les images -->
+
+        <div class="col-lg-6 col-md-6">
+            <a class="ot-image-box v3 st1" href="#" data-bs-toggle="modal" data-bs-target="#missionModal">
+                <div class="overlay">
+                    <h4>Our Mission</h4>
+                </div>
+                <img src="{{asset('front/images/image-box1.jpg')}}" alt="Our Mission">
+            </a>
+        </div>
+       
+
+<!-- Modal pour "Our Mission" -->
+<div class="modal fade" id="missionModal" tabindex="-1" aria-labelledby="missionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="missionModalLabel">Our Mission</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Chez Work4Connect nous avons pour mission de connecter les talents africains aux opportunités de travail à l'étranger. 
+                    Nous croyons fermement en la richesse et la diversité des compétences du continent africain, et nous sommes déterminés à créer un pont entre ces talents et les employeurs internationaux à la recherche de professionnels qualifiés. 
+                    Notre plateforme vise à faciliter l'accès à des offres de travail à l'étranger pour les Africains, en leur permettant de développer leurs compétences, d'élargir leur expérience professionnelle et de contribuer au développement économique mondial.
+                    Nous aidons les travailleurs africains à trouver des emplois à distance, des missions freelances, ainsi que des postes permanents dans des entreprises basées à l'étranger. 
+                    Notre objectif est de surmonter les barrières géographiques et de créer des opportunités de croissance pour les individus et les entreprises, tout en favorisant une meilleure représentation des talents africains sur la scène internationale
+                    </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                       <!-- Section avec les liens et les images -->
+
+        <div class="col-lg-6 col-md-6">
+            <a class="ot-image-box v3 st1" href="#" data-bs-toggle="modal" data-bs-target="#visionModal">
+                <div class="overlay">
+                    <h4>Notre Équipe</h4>
+                </div>
+                <img src="{{asset('front/images/image-box1.jpg')}}" alt="Our Mission">
+            </a>
+        </div>
+        
+<!-- Modal pour "Our Mission" -->
+<div class="modal fade" id="visionModal" tabindex="-1" aria-labelledby="visionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="visionModalLabel">Notre Équipe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Work4Connect est composée d'une équipe dynamique et diversifiée, passionnée par l'Afrique et les possibilités qu'offre le travail à l'étranger. 
+                    Nous sommes un groupe de professionnels africains et internationaux, experts dans différents domaines tels que la technologie, les ressources humaines, le recrutement, et la gestion des talents.
+                    •	Fondateurs
+                    Nos fondateurs sont des entrepreneurs africains avec une vision commune : utiliser la technologie pour connecter les talents africains aux opportunités mondiales. Forts de leur expérience dans le recrutement et le travail à l'étranger, ils ont conçu cette plateforme pour répondre aux besoins des travailleurs africains.
+                    •	Équipe technique
+                    Nos ingénieurs et développeurs travaillent sans relâche pour assurer une expérience utilisateur fluide, sécurisée et optimisée. Ils sont constamment à l'écoute des feedbacks pour améliorer les fonctionnalités de la plateforme.
+                    •	Équipe de gestion des talents
+                    Cette équipe dévouée s'assure que chaque utilisateur, qu'il s'agisse d'un freelance ou d'un employeur, bénéficie du support nécessaire pour atteindre ses objectifs. Ils mettent également en place des partenariats avec des entreprises internationales afin d'augmenter les opportunités pour les talents africains.
+                    •	Support Utilisateur
+                    Nos agents de support sont là pour répondre à toutes vos questions, que vous soyez à la recherche d'un emploi ou que vous souhaitiez recruter. Ils sont accessibles, réactifs et prêts à vous accompagner à chaque étape de votre parcours.
+            
+
+                    </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        <!-- Section avec les liens et les images -->
+
+        <div class="col-lg-6 col-md-6">
+            <a class="ot-image-box v3 st1" href="#" data-bs-toggle="modal" data-bs-target="#valeurModal">
+                <div class="overlay">
+                    <h4>Nos Valeurs</h4>
+                </div>
+                <img src="{{asset('front/images/image-box1.jpg')}}" alt="Our Mission">
+            </a>
+        </div>
+        
+
+<!-- Modal pour "Our Mission" -->
+<div class="modal fade" id="valeurModal" tabindex="-1" aria-labelledby="valeurModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="valeurModalLabel">Nos Valeurs</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Nos valeurs fondamentales sont au cœur de tout ce que nous faisons. Elles guident notre manière de travailler et d'interagir avec nos utilisateurs, partenaires et collaborateurs.
+                    1.	Excellence
+                    Nous visons l'excellence dans tous les aspects de notre plateforme, en offrant des services fiables, transparents et orientés vers la réussite professionnelle de nos utilisateurs.
+                    2.	Diversité et Inclusion
+                    Nous croyons en la force de la diversité. Notre plateforme est ouverte à tous les talents africains, quel que soit leur pays d'origine, leur langue, ou leur domaine d'expertise. Nous promouvons activement l'inclusion dans toutes les opportunités que nous offrons.
+                    3.	Intégrité
+                    La confiance est la base de notre relation avec les freelances, les employeurs et les partenaires. Nous faisons preuve de transparence et d'honnêteté dans nos interactions et dans la gestion des données et des transactions.
+                    4.	Impact
+                    Nous voulons faire une différence dans la vie des Africains en créant des opportunités significatives à travers le travail à l'étranger. En aidant nos utilisateurs à se connecter avec des employeurs internationaux, nous contribuons au développement des compétences et à la croissance économique en Afrique.
+                    5.	Innovation
+                    Nous cherchons constamment à améliorer notre plateforme grâce à l'innovation technologique, en intégrant de nouvelles fonctionnalités pour répondre aux besoins changeants des freelances et des employeurs.
+                    </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <div class="padding-half bg-light-1">
         <div class="container">
             <div class="row">

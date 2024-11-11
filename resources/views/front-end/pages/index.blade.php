@@ -49,7 +49,7 @@
 
                                 data-textAlign="['left','left','left','left']"
             
-                                style="z-index: 10; text-transform: uppercase;  font-weight: 900; color: #fff; font-family: Montserrat;">Liberté et flexibilité au<br>travail depuis chez vous.<br>Trouvez votre emploi<br>à distance 
+                                style="z-index: 10; text-transform: uppercase;  font-weight: 900; color: #fff; font-family: Montserrat;">Faites le Saut<br>Vers l'International !<br>Découvrez des Opportunités<br>de Travail à l'Étranger<br>pour les Talents Africains
                             </div>
                                                                 
                             <!-- LAYER 5  Paragraph-->
@@ -90,7 +90,7 @@
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"
             
-                                style="z-index:8;"><a href="it-services.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
+                                style="z-index:8;"><a href="{{ url('/je_suis_freelance') }}" class="octf-btn octf-btn-primary btn-slider btn-large">Rejoignez la Communauté</a>
                             </div>  
                    
                         </li>  
@@ -136,7 +136,7 @@
 
                                 data-textAlign="['left','left','left','left']"
             
-                                style="z-index: 10; text-transform: uppercase; font-weight: 900; color: #fff; font-family: Montserrat;">Créez votre compte</div>
+                                style="z-index: 10; text-transform: uppercase; font-weight: 900; color: #fff; font-family: Montserrat;">Rejoignez des milliers de<br>freelances et de professionnels<br>africains qui trouvent des missions<br>et des emplois dans des entreprises<br>du monde entier.Travaillez à<br>distance ou en présentiel<br>dans le pays de votre choix.</div>
                                                                 
                             <!-- LAYER 5  Paragraph-->
                             <div class="tp-caption   tp-resizeme" 
@@ -175,7 +175,7 @@
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"
             
-                                style="z-index:10;"><a href="web-development.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
+                                style="z-index:10;"><a href="{{ url('/je_suis_freelance') }}" class="octf-btn octf-btn-primary btn-slider btn-large">Rejoignez la Communauté</a>
                             </div>  
                         </li>  
 
@@ -258,7 +258,7 @@
                                 data-paddingbottom="[0,0,0,0]"
                                 data-paddingleft="[0,0,0,0]"
             
-                                style="z-index:10;"><a href="mobile-development.html" class="octf-btn octf-btn-primary btn-slider btn-large">Learn More</a>
+                                style="z-index:10;"><a href="{{ url('/offre') }}" class="octf-btn octf-btn-primary btn-slider btn-large">Découvrez les Offres d'Emploi</a>
                             </div>  
                         </li>  
                                                 

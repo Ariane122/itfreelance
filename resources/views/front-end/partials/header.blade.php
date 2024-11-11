@@ -66,6 +66,8 @@
                                                     <li><a href="{{ url('/faqs') }}">FAQS</a></li> 
                                                     <li><a href="{{ url('/prestataire') }}">Prestataire</a></li> 
                                                     <li><a href="{{ url('/politique') }}">Politique</a></li> 
+                                                    <li><a href="{{ url('/ressource') }}">Ressource</a></li> 
+
 
 
 
